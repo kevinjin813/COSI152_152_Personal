@@ -3,12 +3,13 @@ import { Text, View, Button,StyleSheet,Image,ImageBackground} from 'react-native
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import FetchData from './FetchData';
+import { TextInput } from 'react-native-paper';
 import ReviewForm from './ReviewForm';
 
-export default function Covid19({ route, navigation }) {
+export default function Review({ route, navigation }) {
   return(
       <View>
-        <FetchData url="https://covidtracking.com/api/v1/states/ma/current.json" />
+        <Text>hello world</Text>
         <ReviewForm />
       </View>
   );
