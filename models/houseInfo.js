@@ -12,4 +12,4 @@ const houseScheme = Schema( {
     picUrl: String
 })
 
-module.exports = mongoose.model('houseInfo', houseScheme);
+module.exports = mongoose.model('houseInfoJY', houseScheme);
